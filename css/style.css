@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .flex-container {
@@ -16,7 +22,7 @@
 
 .text-content {
   font-size: 18px;
-  color: gray;
+  color: darkslategrey;  
 }
 
 .flex-item-center {
@@ -35,15 +41,13 @@
 .flex-item-left {
   padding: 10px;
   flex: 50%;
-  background-color: yellow;
-  margin-right: 5px;
+  background-color: yellow;  
 }
 
 .flex-item-right {
   padding: 10px;
   flex: 50%;
-  background-color: orange;
-  margin-left: 5px;
+  background-color: orange;  
 }
 
 .href-font-size {
@@ -62,5 +66,29 @@ a:hover {
 @media (max-width: 800px) {
   .flex-container {
     flex-direction: column;
+  }
+
+  .container {
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .flex-contents {
+    margin: 5px 0;
+  }
+
+  .flex-item-center {
+    margin-bottom: 5px;
+  }
+
+  .flex-item-footer {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin-right: 7%;
+    margin-left: 7%;
   }
 }
