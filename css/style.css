@@ -1,6 +1,70 @@
-.brand-logo {
-    margin-left: 5%;
-}
 
-
-
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  
+  .flex-contents {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  .text-content {
+  font-size: 18px;
+  color: gray;
+  }
+  
+  
+  .flex-item-center {
+      padding: 20px;
+      flex: 50%;
+      background-color: red;
+      color: white;
+      
+  }
+  
+  .flex-item-footer {
+  padding: 10px;
+  flex: 50px;
+  background-color: green;
+  }
+  
+  .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+    background-color: yellow;
+    margin-right: 5px;
+  }
+  
+  .flex-item-right {  
+    padding: 10px;
+    flex: 50%;
+    background-color: orange;
+    margin-left: 5px;
+  }
+  
+  .href-font-size {
+  font-size: 15px;
+  }
+  
+  a:visited {
+  color: purple;
+  }
+  
+  a:hover {
+  color: white;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
