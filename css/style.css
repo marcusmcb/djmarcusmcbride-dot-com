@@ -30,12 +30,17 @@
   flex: 50%;
   background-color: red;
   color: white;
+  font-family: 'Staatliches', cursive;
 }
 
 .flex-item-footer {
   padding: 10px;
   flex: 50px;
   background-color: green;
+}
+
+.flex-item-center, .flex-item-footer {
+  border-radius: 20px;  
 }
 
 .flex-item-left {
@@ -51,15 +56,20 @@
 }
 
 .href-font-size {
-  font-size: 15px;
+  font-size: 18px;
+  font-family: 'Staatliches', cursive; 
+}
+
+strong {
+  font-family: 'Staatliches', cursive; 
 }
 
 a:visited {
-  color: purple;
+  color: white;
 }
 
 a:hover {
-  color: white;
+  color: purple;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
