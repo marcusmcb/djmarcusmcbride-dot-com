@@ -46,13 +46,15 @@
 .flex-item-left {
   padding: 10px;
   flex: 50%;
-  background-color: yellow;  
+  background-color: yellow; 
+  border-radius: 20px 0 0 20px; 
 }
 
 .flex-item-right {
   padding: 10px;
   flex: 50%;
-  background-color: orange;  
+  background-color: orange;
+  border-radius: 0 20px 20px 0;  
 }
 
 .href-font-size {
@@ -93,6 +95,10 @@ a:hover {
 
   .flex-item-footer {
     margin-top: 5px;
+  }
+
+  .flex-item-left, .flex-item-right {
+    border-radius: 20px;
   }
 }
 
