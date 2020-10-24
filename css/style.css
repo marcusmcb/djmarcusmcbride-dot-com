@@ -102,6 +102,7 @@ a:hover {
   }
 }
 
+/* resets width at 1000px */
 @media (max-width: 1000px) {
   .container {
     margin-right: 7%;
